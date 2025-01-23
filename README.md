@@ -1,7 +1,7 @@
 # 🚧 Sourcegraph Fork
 This repository is forked because we depend on a specific version. Other dependencies used in Sourcegraph require more up to date versions, thus we keep a fork for our internal dependencies that require an older version of this repository.
 
-The changes live on the branc "import-path" which contain:
+The changes live on the branch "import-path" (commit `233c2f923ac7e16500577d66d5c7776d2d160cae`) which contains:
 * all the changes required to make this repo work with sourcegraph/sourcegraph
 * all tags
 
@@ -53,7 +53,7 @@ fmt.Println(child.EndByte()) // 9
 
 This repository provides grammars for many common languages out of the box.
 
-But if you need support for any other language you can keep it inside your own project or publish it as a separate repository to share with the community. 
+But if you need support for any other language you can keep it inside your own project or publish it as a separate repository to share with the community.
 
 See explanation on how to create a grammar for go-tree-sitter [here](https://github.com/smacker/go-tree-sitter/issues/57).
 
