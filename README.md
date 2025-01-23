@@ -1,3 +1,10 @@
+# 🚧 Sourcegraph Fork
+This repository is forked because we depend on a specific version. Other dependencies used in Sourcegraph require more up to date versions, thus we keep a fork for our internal dependencies that require an older version of this repository.
+
+The changes live on the branc "import-path" which contain:
+* all the changes required to make this repo work with sourcegraph/sourcegraph
+* all tags
+
 # go tree-sitter
 
 [![Build Status](https://github.com/smacker/go-tree-sitter/workflows/Test/badge.svg?branch=master)](https://github.com/smacker/go-tree-sitter/actions/workflows/test.yml?query=branch%3Amaster)
